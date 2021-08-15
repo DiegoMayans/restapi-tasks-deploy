@@ -1,0 +1,8 @@
+
+# environment variables
+.env
+
+# Ignoramos estas carpetas porque se pueden instalar con los comandos "npm install" y "npm run dist"
+# node
+node_modules
+dist

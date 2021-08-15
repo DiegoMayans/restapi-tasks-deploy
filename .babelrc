@@ -1,0 +1,11 @@
+
+{
+    // Los presets le dicen a babel q modulos tiene q cargar desde el pack.json
+    // Esto nos sirve para usar el import from en JS
+    "presets": [
+        "@babel/env"
+    ],
+    "plugins": [
+        "@babel/transform-runtime"
+    ]
+}

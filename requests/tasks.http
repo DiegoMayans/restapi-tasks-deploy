@@ -1,0 +1,33 @@
+// Acá colocamos peticiones para el servidor - funciona por la ext rest client
+###
+GET http://localhost:3000/api/tasks
+
+###
+GET http://localhost:3000/api/tasks?size=5&page=0
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "Desarrollo de videojuego",
+    "description": "description example...",
+    "done": true
+}
+
+###
+GET http://localhost:3000/api/tasks/6115abdf6deabe4fd0c11cdf
+
+###
+DELETE http://localhost:3000/api/tasks/61104c98604dc756f4d2a728
+
+###
+GET http://localhost:3000/api/tasks/done
+
+###
+PUT http://localhost:3000/api/tasks/61104a78d5338114e03d4004
+Content-Type: application/json
+
+{
+    "title": "Hacer otra trea"
+}
